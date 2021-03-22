@@ -1,0 +1,115 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}html,
+body {
+  height: 100%;
+  position: relative;
+  background-color: rgb(253, 252, 252);
+  color: rgb(247, 86, 11);
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.main-container {
+  min-height: 100vh;
+  overflow: hidden;
+  display: block;
+  position: relative;
+  padding-bottom: 550px;
+}
+
+.cusfooter {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+h2, label, input{
+  color: rgb(184, 92, 6);
+}
+
+th, tr{
+  color: white;
+}
+
+.icon-gold{
+  color: rgb(184, 92, 6);
+}
+
+.icon-gold{
+  color: rgb(184, 92, 6);
+}
+
+.icon-red{
+  color: rgb(109, 30, 6);
+}
+
+.icon-green{
+  color:green;
+}
+
+.card{
+  background-color: #292929;
+  color: white;
+}
+
+.card-header{
+  background-color: #ffffff;
+}
+
+.cart-header{
+    color: rgb(184, 92, 6);
+    text-align: center;
+    align-content: center;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+h3.yell-text {
+  color:rgb(184, 92, 6) ;
+  font-style: bold;
+}
+
+
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
